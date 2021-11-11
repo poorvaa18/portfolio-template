@@ -22,42 +22,45 @@
   </head>
   <body>
     <!-- NAVBAR part start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#">
-        <h2 class="name-brand">Name.</h2>
-        <p class="nav-para">Designation</p>
-      </a>
-
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="mr-auto"></div>
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about-area">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Me</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- NAVBAR part end -->
+    <header class="hedaer-area  ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+        <a class="navbar-brand" href="#">
+          <h2 class="name-brand">Name.</h2>
+          <p class="nav-para">Designation</p>
+        </a>
+  
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-area">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- NAVBAR part end -->
+    </header>
+    
     <!-- Main part start -->
     <main class="site-main">
       <!-- hero section start -->
@@ -112,6 +115,9 @@
                 <button class="underline-btn">More About Me</button>
               </div>
             </div>
+          </div>
+          <div class="scroll-icon">
+            <img src="./images/scroll.svg" alt="scroll icon" class="scroll-svg">
           </div>
         </div>
       </div>
@@ -333,9 +339,16 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 col-xs-12">
-              <div class="about-header">
-                About <br />
-                Me.
+              <div class="about-sticky">
+                <div class="about-header">
+                  About <br />
+                  Me.
+                  <div class="about-icons">
+                    <img src="./images/Behance.svg" alt="behance">
+                    <img src="./images/Github.svg" alt="behance">
+                    <img src="./images/LinkedIN.svg" alt="behance">
+                  </div>
+                </div>
               </div>
             </div>
             <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 col-xs-12">
@@ -396,6 +409,7 @@
       <!-- about me section end -->
       <!-- contact section start -->
       <div class="contact" id="contact">
+        <div class="container">
         <div class="contact-body">
           <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 contact-title">
             Lorem ipsum is simply dummy text.
@@ -404,8 +418,14 @@
             Lorem ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
+          <div class="contact-icons">
+            <img src="./images/Behance.svg" alt="behance" class="c-i">
+            <img src="./images/Github.svg" alt="behance" class="c-i">
+            <img src="./images/LinkedIN.svg" alt="behance" class="c-i">
+          </div>
           <!-- <div></div> social icon -->
         </div>
+      </div>
       </div>
       <!-- contact section end -->
     </main>
